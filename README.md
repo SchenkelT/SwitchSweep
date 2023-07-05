@@ -1,40 +1,39 @@
-Cisco Int Downtime
+# Cisco Int Downtime
 
-Dit Python-script verzamelt informatie over de downtime van Cisco-interfaces op switches.
-Vereisten
+This Python script collects information about the downtime of Cisco interfaces on switches.
 
-    Python 3.x
-    Paramiko library (voor SSH-verbindingen)
+## Requirements
 
-Installatie
+- Python 3.x
+- Paramiko library (for SSH connections)
 
-    Zorg ervoor dat Python 3.x is geïnstalleerd op je systeem.
+## Installation
 
-    Installeer de Paramiko library met behulp van pip:
+1. Ensure that Python 3.x is installed on your system.
+2. Install the Paramiko library using pip:
 
-    shell
 ```
-    pip install paramiko
+pip install paramiko
+
 ```
-Gebruik
 
-    Bewerk het switches.json-bestand en voeg de IP-adressen van je Cisco-switches toe, samen met de gebruikersnaam en het wachtwoord.
+## Usage
 
-    Voer het script uit met het volgende commando:
+1. Edit the `switches.json` file and add the IP addresses of your Cisco switches along with the username and password.
+2. Run the script using the following command:
 
-    shell
 ```
-    python script.py
+python Interface_Downtime.py
 ```
-    Het script maakt SSH-verbindingen met de opgegeven switches, controleert de downtime van de interfaces en geeft de resultaten op de console weer.
 
-    De uitvoer wordt ook opgeslagen in een output.txt-bestand.
+The script will establish SSH connections to the specified switches, check the downtime of the interfaces, and display the results on the console.
 
-Bijdragen
+The output will also be saved in an `output.txt` file.
 
-Bijdragen aan dit project zijn welkom! Als je verbeteringen wilt voorstellen, problemen wilt melden of nieuwe functies wilt toevoegen, kun je een pull-verzoek indienen of een probleem openen.
-Licentie
+## Contributing
 
-Dit project valt onder de MIT-licentie.
+Contributions to this project are welcome! If you would like to propose improvements, report issues, or add new features, please submit a pull request or open an issue.
 
-Pas het bovenstaande voorbeeld README-bestand naar jouw behoeften aan, inclusief eventuele specifieke instructies of details over het gebruik van jouw script. Voeg ook een LICENTIE-bestand toe met de juiste licentie-informatie als je een andere licentie wilt gebruiken dan de MIT-licentie die in het voorbeeld wordt genoemd.
+## License
+
+This project is licensed under the MIT License.
