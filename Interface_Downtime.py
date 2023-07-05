@@ -2,9 +2,9 @@ import paramiko
 import json
 
 # JSON-bestand met switchgegevens
-switches_file = 'switches.json'
-credentials_file = 'credentials.json'
-output_file = 'output.txt'
+switches_file = 'data/switches.json'
+credentials_file = 'data/credentials.json'
+output_file = 'data/output.txt'
 
 # SSH-client maken
 client = paramiko.SSHClient()
