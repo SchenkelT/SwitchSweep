@@ -19,7 +19,7 @@ pip install paramiko
 
 ## Usage
 
-1. Edit the `switches.json` file and add the IP addresses of your Cisco switches along with the username and password.
+1. Edit the `switches.json` file and add the IP addresses of your Cisco switches along with the username and password in 'credentials.json'.
 2. Run the script using the following command:
 
 ```
