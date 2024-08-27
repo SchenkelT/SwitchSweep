@@ -1,4 +1,4 @@
-# Cisco Int Downtime
+# Cisco Interface Downtime Collector
 
 This Python script collects information about the downtime of Cisco interfaces on switches.
 
