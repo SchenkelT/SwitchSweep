@@ -1,3 +1,6 @@
+![GitHub last commit](https://img.shields.io/github/last-commit/SchenkelT/SwitchSweep)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/SchenkelT/SwitchSweep)
+
 # Cisco Interface Downtime Collector
 
 This Python script collects information about the downtime of Cisco interfaces on switches.
